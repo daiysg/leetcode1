@@ -13,6 +13,8 @@ public class q34 {
     private int binarySearch(int[] A, int target, boolean downOrUp){
         int begin = 0, end = A.length-1;
         int middle = 0;
+
+        //iterative binary~
         while(begin < end){
             middle = (begin+end)/2;
             // find lower bound
