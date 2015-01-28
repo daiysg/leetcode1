@@ -11,6 +11,7 @@ public class q35 {
               else if(A[mid] > target) high = mid-1;
               else low = mid+1;
           }
+          // make sure cannot return high~~
           return low;
     }
 }
