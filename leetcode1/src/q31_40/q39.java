@@ -25,10 +25,10 @@ public class q39 {
 			getResult(result, curResult, candidates, target-candidates[j], j);
 			curResult.remove(curResult.size()-1);
 		}
-		
+
 		if (target==0)
 		{
-			result.add(curResult);
+			result.add(new ArrayList<Integer>(curResult));
 		}
 	}
 }
