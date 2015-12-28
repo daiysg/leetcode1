@@ -2,7 +2,7 @@ package q51_60;
 
 public class q55 {
 
-	
+// quick solution, check every step can reach fast, if cannot reach return 0	
 public boolean canJump(int[] nums) {
         
 		//int curCheck = 0;
