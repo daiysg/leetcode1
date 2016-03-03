@@ -14,6 +14,7 @@ public class q108 {
 		}
 	}
 	
+	// recursive way, left to left child, right to right child
 	public TreeNode sortedArrayToBST(int[] nums) {
 
 		if (nums == null || nums.length == 0)
